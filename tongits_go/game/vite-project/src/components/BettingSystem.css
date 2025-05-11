@@ -1,0 +1,100 @@
+.betting-system {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+
+.betting-system h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffd700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bet-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.bet-option {
+    background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+    border: 2px solid #ffd700;
+    color: #ffd700;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bet-option:hover:not(:disabled) {
+    background: linear-gradient(145deg, #3a3a3a, #2a2a2a);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.2);
+}
+
+.bet-option.selected {
+    background: linear-gradient(145deg, #ffd700, #ffb700);
+    color: #000;
+    border-color: #fff;
+}
+
+.bet-option:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    border-color: #666;
+}
+
+.confirm-bet {
+    background: linear-gradient(145deg, #00a800, #008000);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 168, 0, 0.2);
+}
+
+.confirm-bet:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 168, 0, 0.3);
+}
+
+.confirm-bet:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: linear-gradient(145deg, #666, #444);
+}
+
+.current-bet-display {
+    background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #ffd700;
+}
+
+.current-bet-display h4 {
+    color: #ffd700;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.current-bet-display p {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}

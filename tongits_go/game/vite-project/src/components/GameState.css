@@ -1,0 +1,99 @@
+.game-state {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 20px;
+    pointer-events: none;
+}
+
+.phase-indicator {
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffd700;
+    font-size: 28px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.balance-display {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    pointer-events: auto;
+}
+
+.player-balance,
+.opponent-balance {
+    color: #fff;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.player-balance {
+    color: #00ff00;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.opponent-balance {
+    color: #ff4444;
+    text-shadow: 0 0 10px rgba(255, 68, 68, 0.3);
+}
+
+.round-indicator {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffd700;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.turn-prompt {
+    position: fixed;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(145deg, #00a800, #008000);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+    animation: pulseGlow 2s infinite;
+}
+
+@keyframes pulseGlow {
+    0% { box-shadow: 0 0 20px rgba(0, 255, 0, 0.3); }
+    50% { box-shadow: 0 0 30px rgba(0, 255, 0, 0.6); }
+    100% { box-shadow: 0 0 20px rgba(0, 255, 0, 0.3); }
+}
+
+.turn-timer {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #ffd700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}

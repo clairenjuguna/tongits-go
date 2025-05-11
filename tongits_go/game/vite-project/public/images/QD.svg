@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="336" viewBox="0 0 240 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="336" rx="12" fill="white" stroke="black" stroke-width="1"/>
+  <text x="20" y="60" font-family="Arial" font-size="48" fill="red">Q♦</text>
+  <text x="190" y="300" font-family="Arial" font-size="48" fill="red">Q♦</text>
+  <path d="M120 100 L140 140 L120 180 L100 140 Z" fill="red"/>
+  <path d="M120 200 L140 240 L120 280 L100 240 Z" fill="red"/>
+</svg>

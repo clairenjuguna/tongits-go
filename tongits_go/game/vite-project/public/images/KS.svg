@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="336" viewBox="0 0 240 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="336" rx="12" fill="white" stroke="black" stroke-width="1"/>
+  <text x="20" y="60" font-family="Arial" font-size="48" fill="black">K♠</text>
+  <text x="190" y="300" font-family="Arial" font-size="48" fill="black">K♠</text>
+  <path d="M120 100 L140 160 L120 140 L100 160 Z" fill="black"/>
+  <path d="M120 140 L120 180" stroke="black" stroke-width="4"/>
+  <path d="M120 200 L140 260 L120 240 L100 260 Z" fill="black"/>
+  <path d="M120 240 L120 280" stroke="black" stroke-width="4"/>
+</svg>

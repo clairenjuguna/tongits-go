@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140" height="190" viewBox="0 0 140 190" xmlns="http://www.w3.org/2000/svg">
+  <rect width="140" height="190" rx="10" fill="white" stroke="black" stroke-width="2"/>
+  <text x="10" y="40" font-family="Arial" font-size="30" fill="red">8</text>
+  <text x="120" y="180" font-family="Arial" font-size="30" fill="red">8</text>
+  <text x="70" y="110" font-family="Arial" font-size="50" fill="red">♦</text>
+</svg>
